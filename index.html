@@ -10,8 +10,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700" rel="stylesheet">
 	<link rel="stylesheet" href="style.css">
 	<script src="https://use.fontawesome.com/2360597828.js"></script>
-	<script src="https://code.jquery.com/jquery-3.2.0.min.js" integrity="sha256-JAW99MJVpJBGcbzEuXk4Az05s/XyDdBomFqNlM3ic+I=" crossorigin="anonymous"></script>
-	<script src="app.js" type="text/javascript"></script>
+	<script src="https://code.jquery.com/jquery-3.2.0.min.js"></script>
 </head>
 <body>
 	<div class="container">
@@ -19,22 +18,22 @@
 			<div class="questions">
 				<div class="questionContainer">
 					<div class="colorLineLeft"></div>
-					<div class="question">Ile wśród 16 województw zaczyna się na literę "p"?</div>
+					<div class="question" id="question">Ile wśród 16 województw zaczyna się na literę "p"?</div>
 					<div class="colorLineRight"></div>
 				</div>
 				<div class="answers">
 					<div class="answerLine">
 						<div class="colorLineLeft"></div>
-						<div class="answer"><span>A: </span>jedno</div>
+						<div class="answer" id="A"><span>A: </span><span>jedno</span></div>
 						<div class="colorLineShort"></div>
-						<div class="answer"><span>B: </span>dwa</div>
+						<div class="answer" id="B"><span>B: </span><span>dwa</span></div>
 						<div class="colorLineRight"></div>
 					</div>
 					<div class="answerLine">
 						<div class="colorLineLeft"></div>
-						<div class="answer"><span>C: </span>trzy</div>
+						<div class="answer" id="C"><span>C: </span><span>trzy</span></div>
 						<div class="colorLineShort"></div>
-						<div class="answer"><span>D: </span>cztery</div>
+						<div class="answer" id="D"><span>D: </span><span>cztery</span></div>
 						<div class="colorLineRight"></div>
 					</div>
 				</div>
@@ -108,7 +107,9 @@
 					<div class="reward">500 zł</div>
 				</div>
 			</div>
+			<div class="endGame">Wycofaj się</div>
 		</div>
 	</div>
+	<script src="app.js" type="text/javascript"></script>
 </body>
 </html>
