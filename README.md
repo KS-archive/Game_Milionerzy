@@ -5,4 +5,4 @@
 * Po pierwszym kliknięciu na odpowiedź podświetli się ona na żółto. Odpowiedź zatwierdzamy, klikając na nią po raz drugi.
 
 ## Zmiana pytań
-Zmiany pytań można dokonaćedytując plik pytania.json
+Zmiany pytań można dokonać edytując plik script.js (linie 25-121).
